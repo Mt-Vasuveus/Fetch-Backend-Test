@@ -45,7 +45,7 @@ This project has the benefit of being easily modifiable. If more columns are add
 
 ### Disadvantages
 
-One of the biggest issues with this implementation is the performance. This current implementation relies on working memory, which might slow down for larger data sets. A potential solution would be to store the information in the Objects in a database to reduce what needs to be stored in memory. A hash table could also be used to speed up look-up times.
+One of the issues with this implementation is the performance. This current implementation relies on working memory, which might slow down for larger data sets with more unique payers. A potential solution would be to use a different data structure to store the elements. A hash table could also be used to speed up look-up times.
 
 ## Other information
 
